@@ -21,6 +21,3 @@ def count_fresh_ingridients(data):
             fresh_count += 1
     return fresh_count
 
-with open('database.txt','r') as file:
-    data = file.read()
-print(count_fresh_ingridients(data))
